@@ -10,7 +10,7 @@ function Boxes() {
             <CheckBox msgg="Does any vehicle need to be equiped with fuel cut off device?" />
             <CheckBox msgg="Will any trackers be installed on a bike, truck or machinery?" />
             <CheckBox msgg="Will you need to indentufy the fleet drivers?" />
-            <input type="number" placeholder="How many trackers would you like to purchase? " />
+            <input className="qnt" type="number" placeholder="How many trackers would you like to purchase? " />
         </form>
     )
 }

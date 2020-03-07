@@ -27,7 +27,7 @@ function BillingAddress() {
                 <option value="france">France</option>
             </select>
             <div className="break"></div>
-            <CheckBox msgg="Use shipping address same as billing address" />
+            {/* <CheckBox msgg="Use shipping address same as billing address" /> */}
         </form>
     )
 }

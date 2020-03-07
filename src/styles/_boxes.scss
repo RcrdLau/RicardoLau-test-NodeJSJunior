@@ -8,6 +8,11 @@
         margin: 20px;
         flex-basis: 100%;
     }
+
+    label {
+        font-size: 14px;
+    }
+
     input {
         margin: 20px;
         outline: 0;
@@ -15,6 +20,10 @@
         border: 1px solid grey;
         padding: 10px 10px;
         color: grey;
+        flex: 1 1 100%;
+    }
+
+    .qnt {
         flex: 1 1 100%;
     }
     
