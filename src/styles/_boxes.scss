@@ -1,0 +1,21 @@
+.boxes {
+    flex: 1 1 500px;
+    display: flex;
+    flex-wrap: wrap;
+
+    h2 {
+        color: #1a237a;
+        margin: 20px;
+        flex-basis: 100%;
+    }
+    input {
+        margin: 20px;
+        outline: 0;
+        border-radius: 8px;
+        border: 1px solid grey;
+        padding: 10px 10px;
+        color: grey;
+        flex: 1 1 100%;
+    }
+    
+}
