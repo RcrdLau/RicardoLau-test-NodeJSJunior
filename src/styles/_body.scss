@@ -1,15 +1,13 @@
-.container {
-    max-width: 1300px;
-    background: rgb(245, 245, 245);
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-self: center;
+body {
+    background: $color-background-light;
 
-    .laranja {
-        background: orange;
-        flex: 1 1 500px;
+    .container-body {
+        max-width: 1300px;
+
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-self: center;
     }
-
 }
 

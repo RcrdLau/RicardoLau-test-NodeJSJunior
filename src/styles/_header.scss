@@ -1,9 +1,12 @@
 header {
-    max-width: 1300px;
-    background: white;
-    margin: 0 auto;
-    display: flex;
-    justify-content: flex-start;
+    background: $color-text-white;
+
+    .container-header {
+        max-width: 1300px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-start;
+    }
 
     img {
         max-width: 180px;

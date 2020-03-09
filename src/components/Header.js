@@ -5,7 +5,9 @@ function Header() {
 
     return (
         <header>
-            <img src={logo} className="logo" alt="logo contele" />
+            <section className="container-header">
+                <img src={logo} className="logo" alt="logo contele" />
+            </section>
         </header>
     )
 

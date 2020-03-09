@@ -4,27 +4,29 @@
     flex-wrap: wrap;
 
     h2 {
-        color: #1a237a;
+        color: $color-primary;
         margin: 20px;
         flex-basis: 100%;
+        @extend %text-large;
     }
 
     label {
         font-size: 14px;
-    }
-
-    input {
-        margin: 20px;
-        outline: 0;
-        border-radius: 8px;
-        border: 1px solid grey;
-        padding: 10px 10px;
-        color: grey;
-        flex: 1 1 100%;
+        @extend %text-small-bold;
+        color: $color-text-primary;
     }
 
     .qnt {
         flex: 1 1 100%;
+        max-height: 17px;
+        margin: 20px 20px 75px 20px;
+        outline: 0;
+        border-radius: 8px;
+        border: 1px solid $color-text-primary;
+        padding: 10px 10px;
+        color: $color-text-primary;
+        flex: 1 1 100%;
+        @extend %text-small;
     }
     
 }

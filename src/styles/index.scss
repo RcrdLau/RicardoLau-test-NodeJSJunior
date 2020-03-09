@@ -1,8 +1,10 @@
 @import 'reset';
+@import 'colors';
+@import 'fonts';
 @import 'header';
 @import 'body';
 @import 'contactInformation';
-@import 'shippingAddress';
+@import 'shippingAddress';//billingAddress
 @import 'checkbox';
 @import 'boxes';
 @import 'footer';

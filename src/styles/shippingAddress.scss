@@ -4,9 +4,10 @@
     flex-wrap: wrap;
 
     h2 {
-        color: #1a237a;
+        color: $color-primary;
         margin: 20px;
         flex-basis: 100%;
+        @extend %text-large;
     }
 
     input {
@@ -24,13 +25,13 @@
         margin: 20px;
         outline: 0;
         border-radius: 8px;
-        border: 1px solid grey;
+        border: 1px solid $color-text-primary;
         padding: 10px 10px;
-        color: grey;
+        color: $color-text-primary;
     }
 
-    .break {
-        flex-basis: 100%;
+    .container-checkbox2 {
+        margin: 20px 0 30px 0;
     }
     
 }
